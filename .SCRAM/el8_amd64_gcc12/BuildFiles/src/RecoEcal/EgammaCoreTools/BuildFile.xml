@@ -1,0 +1,29 @@
+{
+  "EXPORT": {
+    "LIB": [
+      "1"
+    ]
+  },
+  "NAME": "RecoEcalEgammaCoreTools",
+  "USE": [
+    "DataFormats/EcalRecHit",
+    "DataFormats/EgammaReco",
+    "DataFormats/Math",
+    "DataFormats/ParticleFlowReco",
+    "DataFormats/EcalDetId",
+    "DataFormats/GeometryVector",
+    "DataFormats/CaloRecHit",
+    "FWCore/Framework",
+    "FWCore/Utilities",
+    "FWCore/MessageLogger",
+    "FWCore/ParameterSet",
+    "Geometry/CaloGeometry",
+    "Geometry/CaloTopology",
+    "Geometry/EcalAlgo",
+    "Geometry/Records",
+    "RecoLocalCalo/EcalRecAlgos",
+    "CalibCalorimetry/EcalLaserCorrection",
+    "PhysicsTools/TensorFlow",
+    "clhep"
+  ]
+}

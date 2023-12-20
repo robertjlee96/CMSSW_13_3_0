@@ -1,0 +1,33 @@
+{
+  "BUILDPRODUCTS": {
+    "BIN": {
+      "BUFU_TEST": {
+        "COMMAND": "RunBUFU.sh",
+        "TYPE": "test"
+      }
+    },
+    "LIBRARY": {
+      "EventFilterUtilitiesTest": {
+        "FILES": "*.cc",
+        "FLAGS": {
+          "EDM_PLUGIN": [
+            "1"
+          ]
+        },
+        "TYPE": "lib",
+        "USE": [
+          "FWCore/MessageLogger",
+          "FWCore/ParameterSet",
+          "FWCore/Utilities",
+          "DataFormats/FEDRawData",
+          "DataFormats/TCDS",
+          "EventFilter/Utilities",
+          "boost"
+        ]
+      }
+    }
+  },
+  "USE": [
+    "FWCore/Framework"
+  ]
+}

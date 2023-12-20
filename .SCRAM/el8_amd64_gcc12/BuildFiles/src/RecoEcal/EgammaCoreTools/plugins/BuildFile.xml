@@ -1,0 +1,20 @@
+{
+  "BUILDPRODUCTS": {
+    "LIBRARY": {
+      "RecoEcalEcalClusterFunctions": {
+        "FILES": "*.cc",
+        "FLAGS": {
+          "EDM_PLUGIN": [
+            "1"
+          ]
+        },
+        "TYPE": "lib"
+      }
+    }
+  },
+  "USE": [
+    "RecoEcal/EgammaCoreTools",
+    "CondFormats/DataRecord",
+    "CondFormats/EcalObjects"
+  ]
+}

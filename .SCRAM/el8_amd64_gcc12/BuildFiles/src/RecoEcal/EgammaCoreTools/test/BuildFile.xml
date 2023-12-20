@@ -1,0 +1,62 @@
+{
+  "BUILDPRODUCTS": {
+    "LIBRARY": {
+      "filterProbClusters": {
+        "FILES": "filterProbClusters.cc",
+        "FLAGS": {
+          "EDM_PLUGIN": [
+            "1"
+          ]
+        },
+        "TYPE": "lib"
+      },
+      "testEcalClusterFunctions": {
+        "FILES": "testEcalClusterFunctions.cc",
+        "FLAGS": {
+          "EDM_PLUGIN": [
+            "1"
+          ]
+        },
+        "TYPE": "lib"
+      },
+      "testEcalClusterLazyTools": {
+        "FILES": "testEcalClusterLazyTools.cc",
+        "FLAGS": {
+          "EDM_PLUGIN": [
+            "1"
+          ]
+        },
+        "TYPE": "lib"
+      },
+      "testEcalClusterSeverityAlgo": {
+        "FILES": "testEcalClusterSeverityAlgo.cc",
+        "FLAGS": {
+          "EDM_PLUGIN": [
+            "1"
+          ]
+        },
+        "TYPE": "lib"
+      },
+      "testEcalClusterTools": {
+        "FILES": "testEcalClusterTools.cc",
+        "FLAGS": {
+          "EDM_PLUGIN": [
+            "1"
+          ]
+        },
+        "TYPE": "lib"
+      }
+    }
+  },
+  "USE": [
+    "RecoEcal/EgammaCoreTools",
+    "DataFormats/EcalRecHit",
+    "Geometry/CaloGeometry",
+    "Geometry/CaloTopology",
+    "CondFormats/EcalObjects",
+    "CondFormats/DataRecord",
+    "hepmc",
+    "clhep",
+    "SimDataFormats/GeneratorProducts"
+  ]
+}

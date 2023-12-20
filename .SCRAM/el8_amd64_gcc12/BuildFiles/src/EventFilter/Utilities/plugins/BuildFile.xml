@@ -1,0 +1,32 @@
+{
+  "BUILDPRODUCTS": {
+    "LIBRARY": {
+      "EventFilterUtilitiesPlugins": {
+        "FILES": "*.cc",
+        "FLAGS": {
+          "EDM_PLUGIN": [
+            "1"
+          ]
+        },
+        "TYPE": "lib",
+        "USE": [
+          "DataFormats/FEDRawData",
+          "EventFilter/Utilities",
+          "FWCore/Framework",
+          "FWCore/MessageLogger",
+          "FWCore/ParameterSet",
+          "FWCore/ServiceRegistry",
+          "FWCore/Sources",
+          "FWCore/Utilities",
+          "IOPool/Streamer",
+          "RecoEcal/EgammaCoreTools",
+          "clhep",
+          "boost",
+          "root",
+          "CommonTools/MVAUtils",
+          "stdcxx-fs"
+        ]
+      }
+    }
+  }
+}

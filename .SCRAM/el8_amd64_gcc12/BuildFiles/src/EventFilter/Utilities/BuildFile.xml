@@ -1,0 +1,22 @@
+{
+  "EXPORT": {
+    "LIB": [
+      "1"
+    ]
+  },
+  "NAME": "EventFilterUtilities",
+  "USE": [
+    "curl",
+    "stdcxx-fs",
+    "tbb",
+    "DataFormats/FEDRawData",
+    "DataFormats/TCDS",
+    "DataFormats/L1Trigger",
+    "FWCore/Framework",
+    "FWCore/MessageLogger",
+    "FWCore/ServiceRegistry",
+    "FWCore/Sources",
+    "IOPool/Streamer",
+    "CommonTools/MVAUtils"
+  ]
+}
