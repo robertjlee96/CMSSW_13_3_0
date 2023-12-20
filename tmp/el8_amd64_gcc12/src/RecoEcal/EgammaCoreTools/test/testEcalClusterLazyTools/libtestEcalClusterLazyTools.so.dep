@@ -1,0 +1,6 @@
+tmp/el8_amd64_gcc12/src/RecoEcal/EgammaCoreTools/test/testEcalClusterLazyTools/testEcalClusterLazyTools.cc.o: \
+ src/RecoEcal/EgammaCoreTools/test/testEcalClusterLazyTools.cc \
+ src/RecoEcal/EgammaCoreTools/interface/EcalClusterLazyTools.h \
+ src/RecoEcal/EgammaCoreTools/interface/EcalClusterTools.h \
+ src/RecoEcal/EgammaCoreTools/interface/EgammaLocalCovParamDefaults.h \
+

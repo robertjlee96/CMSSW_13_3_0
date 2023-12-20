@@ -1,0 +1,2 @@
+01:/usr/bin/rm -f lib/el8_amd64_gcc12/pluginEventFilterUtilitiesPlugins.so lib/el8_amd64_gcc12/EventFilterUtilitiesPlugins.edmplugin
+90:edmPluginRefresh lib/el8_amd64_gcc12
